@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center class="mt-5">
+        <span class="fs-5 fw-bold">ROW</span>
+            <input type="number" class="rounded" id="input1">
+        <span class="fs-5 fw-bold">COLUMN</span>
+            <input type="number" class="rounded" id="input2">
+        <span class="fs-5 fw-bold">EVALUATION</span>
+                   <button class="btn btn-light fs-5 fw-semibold" onclick="add()">ADD</button>
+                   <button class="btn btn-light fs-5 fw-semibold" onclick="subtract()">SUBTRACT</button>
+                   <button class="btn btn-light fs-5 fw-semibold" onclick="multi()">MULTIPLY</button>
+                   <button class="btn btn-light fs-5 fw-semibold" onclick="divide()">DIVIDE</button>
+       
+        
+       <table border="1" id="myTable" class="table table-bordered border-danger text-danger fw-bold"></table> 
+
+    </center>
+    <script src="index.js"></script>
+</body>
+</html>
